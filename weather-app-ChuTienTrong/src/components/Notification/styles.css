@@ -1,0 +1,19 @@
+.notification {
+  position: fixed;
+  z-index: 1000;
+  padding: 10px;
+  border-radius: 4px;
+  color: #fff;
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.notification.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.notification.hide {
+  opacity: 0;
+  transform: translateY(-10px);
+}

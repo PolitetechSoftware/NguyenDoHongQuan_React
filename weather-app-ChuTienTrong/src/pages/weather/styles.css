@@ -1,0 +1,15 @@
+.weather-container {
+  display: flex;
+  flex-direction: column;
+
+  background-color: aliceblue;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 50px;
+  border-radius: 36px;
+  background-color: #efedfa;
+  border: 10px solid #bbb5e1;
+}
+.title {
+  color: #4b3eae;
+}
